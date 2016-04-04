@@ -39,10 +39,10 @@ with open(file, 'rb') as f:
 kml = simplekml.Kml(open=1)
 
 # Create a point for each city. The points' properties are assigned after the point is created
-for cell,lon,lat,direction,beam,UARFCN,SC,RNC_ID,cellid,LAC in data:
+for cell,lon,lat,direction,beam,UARFCN,SC,RNC,cellid,LAC in data:
     pnt = kml.newpoint()
     pnt.name = cell
-    pnt.description = "RNC - " + RNC_ID + "LAC - " + LAC
+    pnt.description = "RNC - " + RNC + "LAC - " + LAC
     pnt.coords = [(lon, lat)]
 
 # Save the KML
