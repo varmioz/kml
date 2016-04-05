@@ -44,6 +44,7 @@ for cell,lon,lat,direction,beam,UARFCN,SC,RNC,cellid,LAC in data:
     pnt.name = cell
     pnt.description = "RNC - " + RNC + "LAC - " + LAC
     pnt.coords = [(lon, lat)]
+    pnt.style.iconstyle.icon.href = 'http://maps.google.com/mapfiles/kml/pal2/icon26.png'
 
 # Save the KML
 print len(data)
