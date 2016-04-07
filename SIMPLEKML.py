@@ -94,6 +94,7 @@ kml.save("T00 Point.kml")
 
 """
 Cell,Lon,Lat,ANT_DIRECTION,ANT_BEAM_WIDTH,UARFCN,SC,RNC-ID,C-ID,LAC
+Folder,Subfolder,Site,Lon,Lat,Comment,Color
 """
 
 
