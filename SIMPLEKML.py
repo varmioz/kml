@@ -107,7 +107,7 @@ def polygon():
     ls.visibility = 0
     ls.description = "Short description"
 
-# -== Beginning#
+# -== Beginning ==-#
 print '''
     What do you want:
     1. Simple convertion from file data.cvs to Points.kml
